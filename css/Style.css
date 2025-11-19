@@ -30,16 +30,20 @@ header {
         height: 50px;
 
         .boton {
+            display: flex;
+            align-items: center;
             font-size: larger;
+            justify-content: center;
             color: rgb(170, 240, 30);
             background-color: black;
-            align-items: center;
             width: 100px;
             border: none;
+            padding: 20px;
+            text-decoration: none;
 
         }
 
-        button:hover {
+        a:hover {
             background-color: yellowgreen;
             color: black;
         }
